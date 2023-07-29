@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: "Ysabeau Infant", sans-serif;
+}
+
+/* Hero Image */
+.hero {
+   background-image: url("../images/backgrounds/hero.jpg");
+}
+
+.hero::after {
+   content: "";
+   display: block;
+   background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0));
+   height: 100vh;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+
+/* Products */
+#products {
+   min-height: 340px;
+}
+
+/* Utils */
+.dropdown:hover .dropdown-menu {
+   display: block;
+}
+
+.offcanvas {
+   transform: translateX(-999px);
+   transition: transform 5s;
+}
+
+.banner {
+   height: 40vh;
+}
+

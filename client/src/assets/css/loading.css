@@ -1,0 +1,96 @@
+/* Loading */
+.box {
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   position: relative;
+   animation: spin 1s linear infinite;
+}
+
+.bullet {
+   height: 5px;
+   width: 5px;
+   border-radius: 50%;
+}
+
+.bullet1 {
+   position: absolute;
+   top: 0.1px;
+   left: 10px;
+}
+
+.bullet2 {
+   position: absolute;
+   top: 1.3px;
+   right: 5px;
+}
+
+.bullet3 {
+   position: absolute;
+   top: 4.9px;
+   right: 1.4px;
+}
+
+.bullet4 {
+   position: absolute;
+   top: 9.9px;
+   right: 0;
+}
+
+.bullet5 {
+   position: absolute;
+   bottom: 5px;
+   right: 1.4px;
+}
+
+.bullet6 {
+   position: absolute;
+   bottom: 1.3px;
+   right: 5px;
+}
+
+.bullet7 {
+   position: absolute;
+   bottom: 0.1px;
+   left: 10px;
+}
+
+.bullet8 {
+   position: absolute;
+   bottom: 1.4px;
+   left: 5px;
+}
+
+.bullet9 {
+   position: absolute;
+   bottom: 5px;
+   left: 1.3px;
+}
+
+.bullet10 {
+   position: absolute;
+   bottom: 10px;
+   left: 0;
+}
+
+.bullet11 {
+   position: absolute;
+   top: 5px;
+   left: 1.3px;
+}
+
+.bullet12 {
+   position: absolute;
+   top: 1.4px;
+   left: 5px;
+}
+
+@keyframes spin {
+   from {
+      transform: rotate(0);
+   }
+
+   to {
+      transform: rotate(360deg);
+   }
+}
